@@ -1,5 +1,8 @@
-
 RewriteEngine On
+
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+RewriteRule .* – [F,L]
+
 # The following rule tells Apache that if the requested filename
 # exists, simply serve it.
 RewriteCond %{REQUEST_FILENAME} -s [OR]
@@ -15,3 +18,18 @@ RewriteRule ^.*$ - [NC,L]
 RewriteCond %{REQUEST_URI}::$1 ^(/.+)(.+)::$
 RewriteRule ^(.*)$ - [E=BASE:%1]
 RewriteRule ^(.*)$ %{ENV:BASE}index.php [NC,L]
+
+RewriteCond %{HTTP_HOST} ^www\.luanagalian\.com\.br$
+RewriteRule ^/?$ "http\:\/\/luanagalian\.com\.br\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^162\.243\.252\.77
+RewriteRule (.*) http://www.luanagalian.com.br/$1 [R=301,L]
+
+<IfModule mod_expires.c>
+    ExpiresActive on
+ 
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+</IfModule>
