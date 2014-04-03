@@ -1,46 +1,37 @@
+<?php
+function custom_echo($x)
+{
+  if(strlen($x)<=200)
+  {
+    echo $x;
+  }
+  else
+  {
+    $y=substr($x,0,200) . '...';
+    echo $y;
+  }
+}?>
 <div class="grid_12">
       <h3>Our BLog</h3>      </div>
       <div class="grid_7">
-        <div class="blog">
-          <img src="images/page3_img1.jpg" alt="" class="img_inner fleft">
-          <div class="extra_wrapper">
-            <h4><a href="#">Vivamus at magna non nunc </a></h4>
-            <time datetime="2013-01-01">October 13, 2013</time>Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo ame magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus dia a scelerisque eros. 
-            <br>
-            <a href="#" class="link1">Learn More</a>
-          </div>
-        </div>
-        <div class="blog">
-          <img src="images/page3_img2.jpg" alt="" class="img_inner fleft">
-          <div class="extra_wrapper">
-            <h4><a href="#">Quisque viverra nulla nun</a></h4>
-            <time datetime="2013-01-01">October 13, 2013</time>Cobeem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo ame magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus dia.
-            <br>
-            <a href="#" class="link1">Learn More</a>
-          </div>
-        </div>
-        <div class="blog">
-          <img src="images/page3_img3.jpg" alt="" class="img_inner fleft">
-          <div class="extra_wrapper">
-            <h4><a href="#">Integer convallis orci vel </a></h4>
-            <time datetime="2013-01-01">October 13, 2013</time>Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo ame magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus dia a scelerisque eros. 
-            <br>
-            <a href="#" class="link1">Learn More</a>
-          </div>
-        </div>
-        <div class="blog">
-          <img src="images/page3_img4.jpg" alt="" class="img_inner fleft">
-          <div class="extra_wrapper">
-            <h4><a href="#">Amus at magna non nuno </a></h4>
-            <time datetime="2013-01-01">October 13, 2013</time>Hew ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo ame magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus dia a scelerisqu.
-            <br>
-            <a href="#" class="link1">Learn More</a>
-          </div>
-        </div>
-
+          <?php
+            foreach($this->materias as $key => $materia):
+          ?>
+                <div class="blog">
+                <img src="images/page3_img1.jpg" alt="" class="img_inner fleft">
+                    <div class="extra_wrapper">
+                      <h4><a href="#"><?php echo $materia['titulo']?> </a></h4>
+                      <time datetime="<?php echo $materia['dtInclusao']?>"><?php echo $materia['dtInclusao']?></time><?php echo $materia['descricao']?>
+                      <br>
+                      <a href="<?php echo $this->url(array("controller"=>"blog","action"=>"show","id"=>$materia['idMateria']),null,true)?>" class="link1">Veja Mais</a>
+                    </div>
+                </div>
+          <?php
+            endforeach;
+          ?>
     </div>
     <div class="grid_4 prefix_1">
-      <h4>Categories</h4>
+<!--      <h4>Categories</h4>
       <ul class="list">
         <li><a href="#">Duis massa elit, auctor non pellentesque vel.</a></li>
         <li><a href="#">Nullam eget dignissim nisi, aliquam feugiat nibh. </a></li>
@@ -48,7 +39,7 @@
         <li><a href="#">Pellentesque a odiohasellus vitae libero vel.</a></li>
         <li><a href="#">Justo pretium dignissieger semper in estgue.</a></li>
         <li><a href="#"> In laoreet lacus eros, vel pulvinar urna ultut.</a></li>
-      </ul>
+      </ul>-->
       <h4 class="head1">Recent Posts</h4>
       <div class="post">
         <div class="l_blox">
@@ -91,19 +82,3 @@ Duis massa elit, auctor non pellentesque vel.
     </div>
   </div>
 </div>
-<!--==============================footer=================================-->
-<div class="bottom_block">
-    <div class="container_12">
-      <div class="grid_10 prefix_1">
-        <div class="column"><a href="#">Nossa Equipe</a></div>
-        <div class="column"><a href="#">FAQs</a></div>
-        <div class="column"><a href="#">Contato</a></div>
-        <div class="clear"></div>
-          <div class="socials">
-            <a href="#"><i class=" icon-facebook"></i></a>
-            <a href="#"><i  class="icon-twitter"></i></a>
-            <a href="#"><i class=" icon-google-plus "></i></a>
-            <a href="#"><i class=" icon-pinterest"></i></a>
-          </div>
-        
-      </div>
