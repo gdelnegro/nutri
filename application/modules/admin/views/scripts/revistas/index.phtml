@@ -1,0 +1,57 @@
+<?php var_dump($baseUrl)?>
+
+<?php
+function custom_echo($x)
+{
+  if(strlen($x)<=50)
+  {
+    echo $x;
+  }
+  else
+  {
+    $y=substr($x,0,50) . '...';
+    echo $y;
+  }
+}
+
+?>
+
+<head>
+</head>
+<body>
+    
+    <?php #var_dump($this->dados)?>
+<center>
+    
+    <?php echo $this->paginationControl($this->paginator, 'Sliding', 'pagination.phtml'); ?>
+    <p class="text-right"> <a class="btn btn-primary" href="<?php echo $this->url(array("module"=>"admin","controller"=>"programas","action"=>"new"),null,true)?>">Cadastrar Revista</a></p>
+    <table class="table table-striped table-hover table-bordered table-condensed" width="100%" cellpadding="3" cellspacing="0" border="1">
+   <tr>
+        <th><center>Título</center></th>
+        <th><center>Descrição</center></th>        
+        <th><center>Capa</center></th>
+        <th><center>Status</center></th>
+        <th><center>Data de Inclusao</center></th>
+        <th><center>Alterado por</center></th>
+        <th><center>Data de Alteraçao</center></th>
+        <th><center>Ações</center></th>
+   </tr>
+   <?php foreach($this->paginator AS $key => $revista):?>
+   <tr>
+      <td><center><?php echo $revista['titulo']?></center></td>
+        <td><center><?php  custom_echo($revista['descricao'])?></center></td>        
+        <td><center>CAPA</center></</td>
+        <td><center>Status</center></td>
+        <td><center><?php echo$revista['dtInclusao']?></center></td>
+        <td><center>Alterado por</center></td>
+        <td><center><?php echo$revista['dtAlteracao']?></center></td>
+      <td><center>
+         <a href="<?php echo $this->url(array("module"=>"admin","controller"=>"revistas","action"=>"edit","id"=>"{$revista['idRevista']}"),null,true)?>" title="Editar Cadastro"><i class='icon-pencil'></i></a> 
+         </center>
+      </td>
+   </tr>
+   <?php endforeach;?>
+</table>
+    
+</center>
+</body>

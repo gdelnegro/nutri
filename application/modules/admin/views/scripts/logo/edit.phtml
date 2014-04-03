@@ -1,0 +1,23 @@
+<?php
+$baseUrl = Zend_Controller_Front::getInstance()->getBaseUrl();
+#var_dump($this->dados) ;
+?>
+<?php echo $this->formLogo?>
+
+<div id="picker"></div>
+
+<script>
+$('#picker').colpick({
+	flat:true,
+	layout:'hex',
+	submit:1,
+        onSubmit:function(hsb,hex,rgb,el) {
+		//$(el).css('background-color', '#'+hex);
+                //$(el).contents()
+                cor.value = '#'+hex
+                //$(el).document.getElementsByName('cor').Value = '#'+hex;
+		$(el).colpickHide();
+	}
+        
+});
+</script>

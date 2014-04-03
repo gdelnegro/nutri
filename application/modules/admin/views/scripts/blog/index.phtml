@@ -1,0 +1,53 @@
+<head>
+</head>
+<?php
+function custom_echo($x)
+{
+  if(strlen($x)<=50)
+  {
+    echo $x;
+  }
+  else
+  {
+    $y=substr($x,0,50) . '...';
+    echo $y;
+  }
+}?>
+<body>
+<center>
+    <?php echo $this->paginationControl($this->paginator, 'Sliding', 'pagination.phtml'); ?>
+    <p class="text-right"> <a class="btn btn-primary" href="<?php echo $this->url(array("module"=>"admin","controller"=>"article","action"=>"new"),null,true)?>">Criar Matéria</a></p>
+    <table class="table table-striped table-hover table-bordered table-condensed" width="100%" cellpadding="3" cellspacing="0" border="1">
+   <tr>
+        <th><center>Título</center></th>
+        <th><center>Descrição</center></th>
+        <th><center>Texto</center></th>
+        <th><center>Criado por</center></th>
+        <th><center>Data de Inclusao</center></th>
+        <th><center>Alterado por</center></th>
+        <th><center>Data de Alteraçao</center></th>
+        <th><center>Açoes</center></th>
+   </tr>
+   <?php foreach($this->paginator AS $key => $article):?>
+   <tr>
+        <td><center><?php  echo $article['titulo']?></center></td>
+        <td><center><?php  echo $article['descricao']?></center></td>
+    <td><center><?php  echo custom_echo( $article['texto'] )?></center></td>
+    <td><center><?php #$usuario = $dbUsuario->pesquisarUsuario( $article['usrCriou'] );
+                echo $article['usrCriou'] ;?></center></td>
+        <td><center><?php echo$article['dtInclusao']?></center></td>
+    
+        <td><center><?php ;
+                echo $article['usrAlterou']; ?></center></td>
+        <td><center><?php echo$article['dtAlteracao']?></center></td>
+      <td><center>
+         <a href="<?php echo $this->url(array("module"=>"admin","controller"=>"article","action"=>"show","id"=>"{$article['idMateria']}"),null,true)?>" title="Visualizar Cadastro"><i class='icon-eye-open'> </i></a>
+         <a href="<?php echo $this->url(array("module"=>"admin","controller"=>"article","action"=>"edit","id"=>"{$article['idMateria']}"),null,true)?>" title="Editar Cadastro" ><i class='icon-pencil'></i></a> 
+         </center>
+      </td>
+   </tr>
+   <?php endforeach;?>
+</table>
+    
+</center>
+</body>

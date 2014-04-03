@@ -1,0 +1,1606 @@
+@media only screen and (min-width: 980px) and (max-width: 1145px) {
+
+/* =========================================================
+	Columns
+============================================================ */
+.kopa-widget-left {
+	float:left;
+	width:129px;
+	margin-right:15px;
+}
+.main-col {
+	float:left;
+	width:795px;
+}
+.one-fifth {
+	width:147px;
+	margin-right:15px;
+}
+.one-third {
+	width:304px;
+	margin-right:14px;
+}
+.right-sidebar {
+	width:299px;
+	padding-left:10px;
+}
+.left-col {
+	margin-right:10px;
+	width:620px;
+}
+.our-team-col {
+	width:255px;
+	margin-right:15px;
+}
+.last {
+	margin-right:0 !important;
+}
+.wrapper {
+	width:940px;
+}
+/* =========================================================
+	Slider
+============================================================ */
+#main-slider {
+	height:350px;
+}
+#sequence, #sequence-wrapper {
+	height:350px;
+	width:680px;
+	margin:0 auto;
+}
+#slider-corner {
+	width:420px;
+}
+.animate-in .intro {
+	left:15px;
+	top:120px;
+}
+.animate-in .slide2 {
+	top:120px;
+	right:0px;
+}
+.intro, .slide3, .slide2{
+	width:400px;
+}
+#main-slider h2{
+	font-size:35px;
+	line-height:35px;
+}
+#main-slider p{
+	font-size:18px;
+	line-height:20px;
+}
+.animate-in .slide3 {
+	left:0px;
+	top:120px;
+}
+.iphone {
+	width:150px;
+}
+.animate-in .iphone {
+	right:0px;
+	top:30px;
+}
+.iphone-shadow, .iphone4-shadow, .iphone3-shadow, .iphone2-shadow {
+	width:150px;
+}
+.animate-in .iphone-shadow {
+	right:0;
+	top:295px;
+}
+.ipad {
+	width:200px;
+}
+.animate-in .ipad {
+	left:0px;
+	top:50px;
+}
+.ipad-shadow {
+	width:200px;
+}
+.animate-in .ipad-shadow {
+	left:0;
+	top:300px;
+}
+.iphone2, .iphone3, .iphone4 {
+	width:150px;
+}
+.animate-in .iphone4 {
+	right:0;
+	top:30px;
+}
+.animate-in .iphone3 {
+	top:30px;
+	right:60px;
+}
+.animate-in .iphone2 {
+	right:130px;
+	top:30px;
+}
+.animate-in .iphone4-shadow {
+	right:0;
+	top:270px;
+}
+.animate-in .iphone3-shadow {
+	right:60px;
+	top:285px;
+}
+.animate-in .iphone2-shadow {
+	right:130px;
+	top:300px;
+}
+
+/*------------------- Logo -----------------------*/
+#logo-image {
+	margin: 28px 0 0 0;
+}
+/* =========================================================
+	Header
+============================================================ */
+/*------------------- Main menu -----------------------*/
+#main-nav {
+	width:400px;
+	margin-left:95px;
+}
+#main-menu {
+	display:none;
+}
+#responsive-menu {
+	display:block;
+}
+/*------------------- Search box -----------------------*/
+
+/* =========================================================
+	Main Content
+============================================================ */
+.sub .main-content {
+	padding:0 0 25px;
+}
+/*------------------- kopa widget -----------------------*/
+.kopa-widget .view-all {
+	text-align:right;
+	width:59px;
+}
+/*-- carouFredSel --*/
+.list-carousel.responsive {
+	margin:0 -5px;	
+}
+.list-carousel ul li {
+	margin:0 5px;
+}
+.carousel-nav {
+	left:50px;
+	top:70px;
+}
+.kopa-widget .entry-item {
+	width:450px;
+	margin-right:15px;
+}
+.kopa-widget .k-featured-img{
+	width:438px;
+}
+.kopa-widget .older-posts {
+	width:330px;
+}
+.kopa-widget .older-posts li {
+	margin-bottom:10px;
+	padding-bottom:0;
+}
+/*------------------- Our service -----------------------*/
+/* =========================================================
+	Page Bottom
+============================================================ */
+/*------------------- Bottom sidebar -----------------------*/
+/*------------ Twitter ---------------*/
+/*------------ Flickr ---------------*/
+.flickr-badge-image {
+	width:75px;
+}
+/*------------------- Footer -----------------------*/
+/*------------ Social link ---------------*/
+/* =========================================================
+	About page
+============================================================ */
+/*------------------- Breadcrumb -----------------------*/
+.about-us .border-img {
+	margin-right:15px;
+}
+.about-us .border-img img {
+	width:330px;
+}
+/* =========================================================
+	Portfolio page
+============================================================ */
+/*------------ Pagination ---------------*/
+/* =========================================================
+	Blog page
+============================================================ */
+/* =========================================================
+	Single page
+============================================================ */
+.entry-header-left {
+	margin-right:15px;
+}
+/*--------- About Author ----------*/
+.about-author img.border-img {
+	margin-right:15px;
+	width:100px;
+}
+/*------------------ Comments List ---------------------*/
+.comments-list .comment {
+	padding:15px;
+	margin-bottom:15px;
+}
+.comments-list .comment p {
+	margin-bottom:0;
+}
+.comment-wrap img {
+	margin-right:15px;
+	width:68px;
+}
+.comment-wrap .comment-body {
+	margin-left:95px;
+}
+.comments-list .children.depth-1 {
+	margin-left:112px;
+}
+.comments-list .children.depth-1 .comment img {
+	width:68px;
+}
+.comments-list .children.depth-1 .comment .comment-wrap .comment-body {
+	margin-left:95px;
+}
+.comments-list .children.depth-2 {
+	margin-left:223px;
+}
+.comments-list .children.depth-2 .comment .comment-wrap .comment-body {
+	margin-left:95px;
+}
+/*------------------ Comment Form ---------------------*/
+#comments-form .comment-left {
+	width: 208px;
+	margin-right:15px;	
+}
+ #comments-form .comment-right {
+	width:397px;
+}
+#comment_name, #comment_email, #comment_url, #comment_subject, #comment_phone {
+	width: 186px;
+}
+#comments-form p.textarea-block {
+	width:397px;
+}
+#comment_message {
+	width:377px;
+}
+#comments-form #submit-comment{
+	margin-top:0px;
+}
+#response .success {
+	margin-top:15px;
+}
+#response .failure {
+	margin-top:15px;
+}
+/* =========================================================
+	Right sidebar
+============================================================ */
+.right-sidebar .widget .related-article {
+	margin:0 -5px;
+}
+.right-sidebar .widget .related-article li {
+	width:144px;
+	margin:0 5px 15px;
+}
+/*------------------ Newsletter ---------------------*/
+.news-letter {
+	padding:15px;
+}
+.newsletter-form .email {
+	width:227px;
+}
+/* =========================================================
+	Contact page
+============================================================ */
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+/* =========================================================
+	Columns
+============================================================ */
+.kopa-widget-left {
+	width:129px;
+	margin-right:15px;
+}
+.main-col {
+	width:535px;
+}
+.one-fifth {
+	width:535px;
+	margin-right:0px;
+}
+.one-third {
+	width:217px;
+	margin-right:14px;
+}
+.right-sidebar {
+	width:200px;
+	padding-left:10px;
+}
+.left-col {
+	margin-right:10px;
+	width:459px;
+}
+.our-team-col {
+	width:168px;
+	margin-right:15px;
+}
+.last {
+	margin-right:0 !important;
+}
+.wrapper {
+	width:680px;
+}
+/* =========================================================
+	Slider
+============================================================ */
+#main-slider {
+	height:350px;
+}
+#sequence-wrapper, #sequence {
+	height:350px;
+	width:680px;
+	margin:0 auto;
+}
+#slider-corner {
+	width:420px;
+}
+.intro, .slide3, .slide2{
+	width:400px;
+}
+#main-slider h2{
+	font-size:35px;
+	line-height:35px;
+}
+#main-slider p{
+	font-size:18px;
+	line-height:20px;
+}
+.animate-in .intro {
+	left:15px;
+	top:80px;
+}
+.animate-in .slide2 {
+	top:80px;
+	right:0px;
+}
+.animate-in .slide3 {
+	left:0px;
+	top:80px;
+}
+.iphone {
+	width:150px;
+}
+.animate-in .iphone {
+	right:0px;
+	top:30px;
+}
+.iphone-shadow, .iphone4-shadow, .iphone3-shadow, .iphone2-shadow {
+	width:150px;
+}
+.animate-in .iphone-shadow {
+	right:0;
+	top:295px;
+}
+.ipad {
+	width:200px;
+}
+.animate-in .ipad {
+	left:0px;
+	top:50px;
+}
+.ipad-shadow {
+	width:200px;
+}
+.animate-in .ipad-shadow {
+	left:0;
+	top:300px;
+}
+.iphone2, .iphone3, .iphone4 {
+	width:150px;
+}
+.animate-in .iphone4 {
+	right:0;
+	top:30px;
+}
+.animate-in .iphone3 {
+	top:30px;
+	right:60px;
+}
+.animate-in .iphone2 {
+	right:130px;
+	top:30px;
+}
+.animate-in .iphone4-shadow {
+	right:0;
+	top:270px;
+}
+.animate-in .iphone3-shadow {
+	right:60px;
+	top:285px;
+}
+.animate-in .iphone2-shadow {
+	right:130px;
+	top:300px;
+}
+
+
+/*------------------- Logo -----------------------*/
+.home #logo-image {
+	margin:28px 0 0 -25px;
+}
+.sub #logo-image {
+	margin:28px 0 0;
+}
+/* =========================================================
+	Header
+============================================================ */
+/*------------------- Main menu -----------------------*/
+#main-nav {
+	width:235px;
+	margin-left:65px;
+}
+.sub #main-nav {
+	margin-left:50px;
+}
+#main-menu {
+	display:none;
+}
+#responsive-menu {
+	display:block;
+}
+/*------------------- Search box -----------------------*/
+
+/* =========================================================
+	Main Content
+============================================================ */
+.sub .main-content {
+	padding:0 0 20px;
+}
+.divider {
+	margin:15px 0;
+}
+.kopa-widget .view-all {
+	text-align:right;
+	width:59px;
+}
+/*-- carouFredSel --*/
+.list-carousel.responsive {
+	margin:0 -5px;	
+}
+.list-carousel ul li {
+	margin:0 5px;
+}
+.carousel-nav {
+	left:50px;
+}
+.kopa-widget .widget-title {
+	font-size:16px;
+}
+.kopa-widget .entry-item {
+	width:320px;
+	margin-right:15px;
+}
+.kopa-widget .k-featured-img{
+	width:308px;
+}
+.kopa-widget .older-posts {
+	width:200px;
+}
+.kopa-widget .widget-title {
+	font-size:20px;
+}
+.kopa-widget .older-posts li .entry-title {
+	font-size:13px;
+}
+.kopa-widget .entry-item .entry-content .entry-title {
+	font-size:16px;
+	margin:5px 0;
+}
+.kopa-widget .older-posts li {
+	margin-bottom:10px;
+	padding-bottom:0;
+}
+.kopa-widget .older-posts li .entry-meta, .kopa-widget .older-posts li .entry-date, .kopa-widget .older-posts li .entry-author {
+	font-size:12px;
+}
+.entry-meta, .entry-categories, .entry-date, .entry-author, .entry-comment {
+	font-size:12px;
+}
+/*------------------- Our service -----------------------*/
+.kopa-widget .main-col .feature-service {
+	text-align:left;
+}
+.kopa-widget .kopacms-icon-hover {
+	float:left;
+	margin-right:15px;
+	margin-bottom:10px;
+}
+/* =========================================================
+	Page Bottom
+============================================================ */
+/*------------------- Bottom sidebar -----------------------*/
+.testimonial-content p {
+	padding:10px;
+}
+#bottom-sidebar .widget-title {
+	margin-bottom:15px;
+}
+/*------------ Twitter ---------------*/
+/*------------ Flickr ---------------*/
+.flickr-badge-image {
+	width:53px;
+}
+/*------------------- Footer -----------------------*/
+/*------------ Social link ---------------*/
+/* =========================================================
+	About page
+============================================================ */
+/*------------------- Breadcrumb -----------------------*/
+.about-us .border-img {
+	margin-right:15px;
+}
+.about-us .border-img img {
+	width:200px;
+}
+.our-team-col .entry-content {
+	margin-top:5px;
+}
+.our-team-col .entry-content .entry-title {
+	font-size:14px;
+}
+.about-us .entry-content .entry-title {
+	font-size:20px;
+	margin-bottom:5px;
+}
+.entry-social-links li {
+	margin-bottom:0;
+}
+/* =========================================================
+	Portfolio page
+============================================================ */
+/*------------ Pagination ---------------*/
+/* =========================================================
+	Blog page
+============================================================ */
+.col3 {
+	width:295px;
+}
+.col3 img {
+	max-width:295px;
+}
+/* =========================================================
+	Single page
+============================================================ */
+.entry-header-left {
+	margin-right:15px;
+}
+.entry-header-left .entry-title {
+	font-size:24px;
+	margin-bottom:10px;
+}
+.entry-header {
+	margin-bottom:10px;
+}
+/*--------- About Author ----------*/
+.about-author {
+	margin-bottom:5px;
+}
+.about-author img.border-img {
+	margin-right:15px;
+	width:80px;
+}
+.about-author h3, #comments h3, #respond h3 {
+	font-size:16px;
+}
+/*------------------ Comments List ---------------------*/
+#comments {
+	padding-top:15px;
+	margin-bottom:15px;
+}
+.comments-list .comment {
+	padding:15px;
+	margin-bottom:15px;
+}
+.comments-list .comment p {
+	margin-bottom:0;
+}
+.comment-wrap img {
+	margin-right:15px;
+	width:68px;
+}
+.comment-wrap .comment-body {
+	margin-left:95px;
+}
+.comments-list .children.depth-1 {
+	margin-left:0px;
+}
+.comments-list .children.depth-1 .comment img {
+	width:68px;
+}
+.comments-list .children.depth-1 .comment .comment-wrap .comment-body {
+	margin-left:95px;
+}
+.comments-list .children.depth-2 {
+	margin-left:0px;
+}
+.comments-list .children.depth-2 .comment .comment-wrap .comment-body {
+	margin-left:95px;
+}
+/*------------------ Comment Form ---------------------*/
+#comments-form .comment-left {
+	width: 459px;
+	margin-right:0;	
+}
+ #comments-form .comment-right {
+	width:459px;
+}
+#comment_name, #comment_email, #comment_url, #comment_subject, #comment_phone {
+	width: 437px;
+}
+#comments-form p.textarea-block {
+	width:459px;
+}
+#comment_message {
+	width:437px;
+}
+#comments-form #submit-comment{
+	margin-top:0px;
+}
+#response .success {
+	margin-top:15px;
+}
+#response .failure {
+	margin-top:15px;
+}
+/* =========================================================
+	Right sidebar
+============================================================ */
+.right-sidebar .widget .related-article {
+	margin:0;
+}
+.right-sidebar .widget .related-article li {
+	width:200px;
+	margin:0 0 15px;
+}
+.right-sidebar .widget .related-article li img {
+	width:188px;
+}
+.right-sidebar .widget .recent-article li .entry-title {
+	font-size:14px;
+}
+.right-sidebar .widget .widget-title {
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+/*------------------ Newsletter ---------------------*/
+.news-letter {
+	padding:10px;
+}
+.newsletter-form .email {
+	width:138px;
+}
+/* =========================================================
+	Contact page
+============================================================ */
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+/* =========================================================
+	Columns
+============================================================ */
+.kopa-widget-left {
+	width:440px;
+	margin-right:0px;
+}
+.main-col {
+	width:440px;
+}
+.one-fifth {
+	width:440px;
+	margin-right:0px;
+}
+.one-third {
+	width:440px;
+	margin-right:0px;
+	margin-bottom:10px;
+}
+.right-sidebar {
+	width:440px;
+	padding-left:0px;
+	border-left:none;
+}
+.left-col {
+	margin-right:0px;
+	width:440px;
+}
+.our-team-col {
+	width:440px;
+	margin-right:0px;
+	margin-bottom:10px;
+}
+.last {
+	margin-right:0 !important;
+}
+.wrapper, #sequence {
+	width:440px;
+}
+/* =========================================================
+	Slider
+============================================================ */
+#slider-wrapper {
+	display:none;
+}
+
+/*------------------- Logo -----------------------*/
+#logo-image {
+	float:none;
+	text-align:center;
+	margin:22px 0 0;
+	width:100%;
+	height:50px;
+}
+/* =========================================================
+	Header
+============================================================ */
+/*------------------- Main menu -----------------------*/
+#main-nav {
+	width:210px;
+	margin-left:0px;
+}
+.sub #main-nav {
+	margin-left:0px;
+	width:190px;
+}
+#main-menu {
+	display:none;
+}
+#responsive-menu {
+	display:block;
+	
+}
+.sub #responsive-menu{
+	background-color:#F9F9F9;
+	border:1px solid #C2C2C2;
+	color:#333;
+}
+/*------------------- Search box -----------------------*/
+.search-box {
+	width:202px;
+	
+}
+.search-box .search-text {
+	width:170px;
+}
+.sub .search-box .search-text{
+	background:none repeat scroll 0 0 rgba(255, 255, 255, 0.63);
+	border:1px solid #C2C2C2;
+	color:#333;
+}
+/* =========================================================
+	Main Content
+============================================================ */
+.sub .main-content {
+	padding:0 0 20px;
+}
+.divider {
+	margin:10px 0;
+}
+#left-corner, .sub #left-corner {
+	display:none;
+}
+.kopa-widget .kopa-widget-left, .kp-carousel .kopa-widget-left {
+	border-right:none !important;
+	min-height:1px !important;
+}
+.kp-carousel .kopa-widget-left {
+	margin-bottom:20px !important;
+}
+.kopa-widget .kopa-widget-left {
+	margin-bottom:10px;
+}
+.kopa-widget .widget-title {
+	text-align:left;
+	float:left;
+	margin-bottom:0;
+	margin-right:30px;
+}
+.kopa-widget .view-all {
+	float:left;
+	margin-top:5px;
+}
+/*-- carouFredSel --*/
+.list-carousel.responsive {
+	margin:0 -5px;	
+}
+.list-carousel ul li {
+	margin:0 5px;
+}
+.carousel-nav {
+	left:375px;
+	top:-10px;
+}
+.kopa-widget .widget-title {
+	font-size:16px;
+}
+.video-icon, .zoom-icon {
+	background-size:30px;
+}
+.kopa-widget .entry-item {
+	width:440px;
+	margin-right:0px;
+	margin-bottom:10px;
+}
+.kopa-widget .k-featured-img{
+	width:428px;
+}
+.kopa-widget .older-posts {
+	width:440px;
+}
+.kopa-widget .widget-title {
+	font-size:20px;
+	text-align:left;
+	margin-bottom:0;
+}
+.kopa-widget .older-posts li .entry-title {
+	font-size:13px;
+}
+.kopa-widget .entry-item .entry-content .entry-title {
+	font-size:18px;
+}
+.kopa-widget .older-posts li {
+	margin-bottom:10px;
+	padding-bottom:0;
+}
+.kopa-widget .older-posts li .entry-meta, .kopa-widget .older-posts li .entry-date, .kopa-widget .older-posts li .entry-author {
+	font-size:12px;
+}
+.entry-meta, .entry-categories, .entry-date, .entry-author, .entry-comment {
+	font-size:12px;
+}
+.kopa-widget .main-col .feature-service {
+	text-align:left;
+}
+.kopa-widget .kopacms-icon-hover {
+	float:left;
+	margin-right:15px;
+	margin-bottom:10px;
+}
+/* =========================================================
+	Page Bottom
+============================================================ */
+/*------------------- Bottom sidebar -----------------------*/
+#bottom-sidebar {
+	padding:20px 0;
+}
+.testimonial-content p {
+	padding:10px;
+}
+#bottom-sidebar .widget-title {
+	margin-bottom:15px;
+}
+/*------------ Twitter ---------------*/
+/*------------ Flickr ---------------*/
+.flickr-badge-image {
+	width:54px;
+}
+/*------------------- Footer -----------------------*/
+#footer {
+	padding-bottom:20px;
+}
+#footer-inner {
+	background:none;
+	text-align:center;
+}
+#copyrights {
+	margin-top:42px;
+	text-align:center;
+	float:none;
+}
+/*------------ Social link ---------------*/
+.social-links {
+	float:none;
+	display:inline-block;
+}
+/* =========================================================
+	About page
+============================================================ */
+/*------------------- Breadcrumb -----------------------*/
+.breadcrumb {
+	margin:0px 0 15px;
+	padding-top:15px;
+}
+.about-us .border-img {
+	margin-right:15px;
+}
+.about-us .border-img img, .our-team-col .border-img img {
+	width:150px;
+}
+.our-team-col .border-img {
+	float:left;
+	margin-right:15px;
+}
+.our-team-col .entry-content {
+	margin-top:0px;
+	float:left;
+	width:263px;
+}
+.our-team-col .entry-content .entry-title {
+	font-size:16px;
+}
+.about-us .entry-content .entry-title {
+	font-size:18px;
+	margin-bottom:5px;
+}
+.entry-social-links li {
+	margin-bottom:0;
+}
+/* =========================================================
+	Portfolio page
+============================================================ */
+.col2 {
+	width:218px;
+}
+.col2 img {
+	max-width:218px;
+}
+.pf-content h2 {
+	margin:30px 0 20px;
+}
+.col1 {
+	width:438px;
+}
+.col1 img {
+	max-width:438px;
+}
+.col1 .pf-content h2 {
+	margin:100px 0 20px;
+}
+/*------------ Pagination ---------------*/
+.pagination li a {
+	padding:15px;
+}
+/* =========================================================
+	Blog page
+============================================================ */
+.col3 {
+	width:175px;
+	margin-bottom:0;
+}
+.col3 img {
+	max-width:175px;
+}
+.col3 .entry-content header {
+	margin-bottom:5px;
+}
+.col3 .entry-content .entry-date {
+	width:50px;
+	font-size:11px;
+	margin-right:10px;
+	padding-bottom:5px;
+}
+.col3 .entry-content .entry-date strong {
+	font-size:20px;
+	line-height:20px;
+	margin:5px 0 3px;
+}
+.col3 .entry-meta, .col3 .entry-categories, .col3 .entry-author, .col3 .entry-comment {
+	margin:5px 0;
+	font-size:11px;
+}
+.col3 .entry-content .entry-title {
+	font-size:16px;
+	margin:5px 0 0 0;
+}
+/* =========================================================
+	Single page
+============================================================ */
+.entry-header-left {
+	margin-right:15px;
+}
+.entry-header-left .entry-title {
+	font-size:24px;
+	margin-bottom:10px;
+}
+.entry-header {
+	margin-bottom:10px;
+}
+/*--------- About Author ----------*/
+.about-author {
+	margin-bottom:5px;
+}
+.about-author img.border-img {
+	margin-right:15px;
+	width:80px;
+}
+.about-author h3, #comments h3, #respond h3 {
+	font-size:16px;
+	margin-bottom:10px;
+}
+/*------------------ Comments List ---------------------*/
+#comments {
+	padding-top:15px;
+	margin-bottom:15px;
+}
+.comments-list .comment {
+	padding:15px;
+	margin-bottom:15px;
+}
+.comments-list .comment p {
+	margin-bottom:0;
+}
+.comment-wrap img {
+	margin-right:15px;
+	width:68px;
+}
+.comment-wrap .comment-body {
+	margin-left:95px;
+}
+.comments-list .children.depth-1 {
+	margin-left:0px;
+}
+.comments-list .children.depth-1 .comment img {
+	width:68px;
+}
+.comments-list .children.depth-1 .comment .comment-wrap .comment-body {
+	margin-left:95px;
+}
+.comments-list .children.depth-2 {
+	margin-left:0px;
+}
+.comments-list .children.depth-2 .comment .comment-wrap .comment-body {
+	margin-left:95px;
+}
+/*------------------ Comment Form ---------------------*/
+#comments-form .comment-left {
+	width: 440px;
+	margin-right:0;	
+}
+ #comments-form .comment-right {
+	width:440px;
+}
+#comment_name, #comment_email, #comment_url, #comment_subject, #comment_phone {
+	width: 418px;
+}
+#comments-form p.textarea-block {
+	width:440px;
+}
+#comment_message {
+	width:418px;
+}
+#comments-form #submit-comment{
+	margin-top:0px;
+}
+#response .success {
+	margin-top:10px;
+}
+#response .failure {
+	margin-top:10px;
+}
+/* =========================================================
+	Right sidebar
+============================================================ */
+.right-sidebar .widget .related-article {
+	margin:0 -5px;
+}
+.right-sidebar .widget .related-article li {
+	width:215px;
+	margin:0 5px 10px;
+}
+.right-sidebar .widget .related-article li img {
+	width:203px;
+}
+.right-sidebar .widget .recent-article li .entry-title {
+	font-size:14px;
+}
+.right-sidebar .widget .widget-title {
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+/*------------------ Newsletter ---------------------*/
+.news-letter {
+	padding:20px;
+}
+.newsletter-form .email {
+	width:358px;
+}
+/* =========================================================
+	Contact page
+============================================================ */	
+.right-sidebar .widget .contact-title {
+	margin-top:0;
+}
+	
+}
+
+@media only screen and (max-width: 479px) {
+	
+/* =========================================================
+	Columns
+============================================================ */
+.kopa-widget-left {
+	width:280px;
+	margin-right:0px;
+}
+.main-col {
+	width:280px;
+}
+.one-fifth {
+	width:280px;
+	margin-right:0px;
+}
+.one-third {
+	width:280px;
+	margin-right:0px;
+	margin-bottom:10px;
+}
+.right-sidebar {
+	width:280px;
+	padding-left:0px;
+	border-left:none;
+}
+.left-col {
+	margin-right:0px;
+	width:280px;
+}
+.our-team-col {
+	width:280px;
+	margin-right:0px;
+	margin-bottom:5px;
+}
+.last {
+	margin-right:0 !important;
+}
+.wrapper, #sequence {
+	width:280px;
+}
+/* =========================================================
+	Slider
+============================================================ */
+#slider-wrapper {
+	display:none;
+}
+
+/*------------------- Logo -----------------------*/
+#logo-image {
+	float:none;
+	text-align:center;
+	margin:20px 0 0;
+	width:100%;
+	height:50px;
+}
+/* =========================================================
+	Header
+============================================================ */
+/*------------------- Main menu -----------------------*/
+#main-nav {
+	width:280px;
+	margin-left:0px;
+}
+#responsive-menu {
+	
+}
+#main-menu {
+	display:none;
+}
+#responsive-menu {
+	display:block;
+}
+.sub #responsive-menu{
+	background-color:#F9F9F9;
+	border:1px solid #C2C2C2;
+	color:#333;
+}
+/*------------------- Search box -----------------------*/
+.search-box {
+	display:none;
+	width:202px;
+}
+.search-box .search-text {
+	width:170px;
+}
+.sub .search-box {
+	display:none;
+}
+/* =========================================================
+	Main Content
+============================================================ */
+.main-content {
+	padding:25px 0 15px;
+}
+.sub .main-content {
+	padding:0 0 15px;
+}
+.divider {
+	margin:10px 0;
+}
+#left-corner, .sub #left-corner {
+	display:none;
+}
+.kopa-widget .kopa-widget-left, .kp-carousel .kopa-widget-left {
+	border-right:none !important;
+	min-height:1px !important;	
+}
+.kopa-widget .kopa-widget-left {
+	margin-bottom:5px;
+}
+.kp-carousel .kopa-widget-left {
+	margin-bottom:15px !important;
+}
+.kopa-widget .widget-title {
+	text-align:left;
+	float:left;
+	margin-bottom:0;
+	margin-right:30px;
+}
+.kopa-widget .view-all {
+	float:left;
+	margin-top:5px;
+	display:none;
+}
+/*-- carouFredSel --*/
+.list-carousel.responsive {
+	margin:0 -5px;
+}
+.list-carousel ul li {
+	margin:0 5px;
+}
+.carousel-nav {
+	left:215px;
+	top:-10px;
+}
+.kopa-widget .widget-title {
+	font-size:16px;
+}
+.video-icon, .zoom-icon {
+	background-size:30px;
+}
+.kopa-widget .entry-item {
+	width:280px;
+	margin-right:0px;
+	margin-bottom:0px;
+}
+.kopa-widget .k-featured-img{
+	width:262px;
+}
+.kopa-widget .older-posts {
+	width:280px;
+	border-top:1px solid #ddd;
+	padding-top:10px;
+}
+.kopa-widget .widget-title {
+	font-size:20px;
+	text-align:left;
+	margin-bottom:0;
+}
+.kopa-widget .older-posts li .entry-title {
+	font-size:13px;
+}
+.kopa-widget .entry-item .entry-content .entry-title {
+	font-size:16px;
+	margin:0 0 5px 0;
+}
+.kopa-widget .entry-item .entry-content p {
+	margin-bottom:10px;
+}
+.kopa-widget .older-posts li {
+	margin-bottom:10px;
+	padding-bottom:0;
+}
+.kopa-widget .older-posts li .entry-meta, .kopa-widget .older-posts li .entry-date, .kopa-widget .older-posts li .entry-author {
+	font-size:12px;
+}
+.entry-meta, .entry-categories, .entry-date, .entry-author, .entry-comment {
+	font-size:12px;
+}
+.kopa-widget .entry-item .entry-date {
+	padding:5px;
+}
+.kopa-widget .main-col .feature-service {
+	text-align:left;
+}
+.kopa-widget .kopacms-icon-hover {
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.our-team-col .entry-content p {
+	margin-bottom:5px;
+}
+/* =========================================================
+	Page Bottom
+============================================================ */
+/*------------------- Bottom sidebar -----------------------*/
+#bottom-sidebar {
+	padding:15px 0;
+}
+.testimonial-content p {
+	padding:10px;
+}
+#bottom-sidebar .widget-title {
+	margin-bottom:15px;
+}
+.testimonial-author img {
+	margin-right:10px;
+}
+/*------------ Twitter ---------------*/
+/*------------ Flickr ---------------*/
+.flickr-badge-image {
+	width:69px;
+}
+/*------------------- Footer -----------------------*/
+#footer {
+	padding-bottom:10px;
+}
+#footer-inner {
+	background:none;
+	text-align:center;
+}
+#copyrights {
+	margin-top:42px;
+	text-align:center;
+	float:none;
+}
+/*------------ Social link ---------------*/
+.social-links {
+	float:none;
+	display:inline-block;
+	margin-top:0;
+}
+.social-links li {
+	margin-left:0;
+	margin-bottom:0;
+}
+/* =========================================================
+	About page
+============================================================ */
+/*------------------- Breadcrumb -----------------------*/
+.breadcrumb {
+	margin:0px 0 10px;
+	padding-top:10px;
+}
+.breadcrumb a.current-page {
+	font-size:20px;
+}
+.about-us .border-img {
+	margin-right:0px;
+	float:none;
+	margin-bottom:10px;
+}
+.our-team-col .entry-content {
+	margin-top:10px;
+}
+.our-team-col .entry-content .entry-title {
+	font-size:16px;
+}
+.about-us .entry-content .entry-title {
+	font-size:18px;
+	margin-bottom:5px;
+}
+.entry-social-links li {
+	margin-bottom:0;
+}
+/* =========================================================
+	Portfolio page
+============================================================ */
+.pf-type {
+	width:280px;
+	margin-top:10px;
+}
+.col2 {
+	width:280px;
+}
+.col2 img {
+	max-width:280px;
+}
+.pf-content h2 {
+	margin:30px 0 20px;
+}
+.col1 {
+	width:280px;
+}
+.col1 img {
+	max-width:280px;
+}
+.col1 .pf-content h2 {
+	margin:30px 0 20px;
+}
+/*------------ Pagination ---------------*/
+.pagination {
+	margin:0 0 15px;
+}
+.pagination li a {
+	padding:6px 5px;
+	font-size:12px;
+}
+.pagination li.pagination-prev, .pagination li.pagination-next {
+	background:none;
+}
+/* =========================================================
+	Blog page
+============================================================ */
+#blog-container {
+	padding-bottom:0;
+	margin-bottom:15px;
+}
+.col3 {
+	width:280px;
+	margin-bottom:0;
+}
+.col3 img {
+	max-width:280px;
+}
+.col3 .entry-content header {
+	margin-bottom:5px;
+}
+.col3 .entry-content .entry-date {
+	width:50px;
+	font-size:11px;
+	margin-right:10px;
+	padding-bottom:5px;
+}
+.col3 .entry-content .entry-date strong {
+	font-size:20px;
+	line-height:20px;
+	margin:5px 0 3px;
+}
+.col3 .entry-meta, .col3 .entry-categories, .col3 .entry-author, .col3 .entry-comment {
+	margin:5px 0;
+	font-size:11px;
+}
+.col3 .entry-content .entry-title {
+	font-size:16px;
+	margin:0;
+}
+/* =========================================================
+	Single page
+============================================================ */
+.entry-header-left {
+	margin-right:15px;
+}
+.entry-header-left .entry-title {
+	font-size:20px;
+	margin-bottom:10px;
+}
+.entry-header {
+	margin-bottom:10px;
+}
+.entry-header-right {
+	display:none;
+}
+/*--------- About Author ----------*/
+.about-author {
+	margin-bottom:5px;
+}
+.about-author img.border-img {
+	margin-right:10px;
+	width:50px;
+}
+.about-author h3, #comments h3, #respond h3 {
+	font-size:16px;
+	margin-bottom:5px;
+}
+/*------------------ Comments List ---------------------*/
+#comments {
+	padding-top:15px;
+	margin-bottom:15px;
+}
+.comments-list .comment {
+	padding:10px;
+	margin-bottom:10px;
+}
+.comments-list .comment p {
+	margin-bottom:0;
+}
+.comment-wrap img {
+	margin-right:10px;
+	width:50px;
+}
+.comment-wrap .comment-body {
+	margin-left:72px;
+}
+.comments-list .children.depth-1 {
+	margin-left:0px;
+}
+.comments-list .children.depth-1 .comment img, .comments-list .children.depth-2 .comment img {
+	width:50px;
+}
+.comments-list .children.depth-1 .comment .comment-wrap .comment-body {
+	margin-left:72px;
+}
+.comments-list .children.depth-2 {
+	margin-left:0px;
+}
+.comments-list .children.depth-2 .comment .comment-wrap .comment-body {
+	margin-left:72px;
+}
+/*------------------ Comment Form ---------------------*/
+#respond {
+	margin:10px 0;
+	padding-top:10px;
+}
+.c-note {
+	font-size:12px;
+}
+#comments-form .comment-left {
+	width: 280px;
+	margin-right:0;	
+}
+ #comments-form .comment-right {
+	width:280px;
+}
+#comment_name, #comment_email, #comment_url, #comment_subject, #comment_phone {
+	width: 258px;
+}
+#comments-form p.textarea-block {
+	width:280px;
+}
+#comment_message {
+	width:258px;
+}
+#comments-form #submit-comment{
+	margin-top:0px;
+}
+#response .success {
+	margin-top:10px;
+}
+#response .failure {
+	margin-top:10px;
+}
+/* =========================================================
+	Right sidebar
+============================================================ */
+.right-sidebar .widget {
+	margin-bottom:15px;
+}
+.right-sidebar .widget .related-article, .right-sidebar .widget .recent-article {
+	margin:0;
+}
+.right-sidebar .widget .related-article li {
+	width:280px;
+	margin:0 0 10px;
+}
+.right-sidebar .widget .related-article li img {
+	width:268px;
+}
+.right-sidebar .widget .recent-article li .entry-title {
+	font-size:14px;
+}
+.right-sidebar .widget .widget-title {
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+.right-sidebar .widget .recent-article li {
+	padding-bottom:0;
+	margin-bottom:10px;
+}
+/*------------------ Newsletter ---------------------*/
+.news-letter {
+	padding:10px;
+}
+.newsletter-form .email {
+	width:218px;
+}
+/* =========================================================
+	Contact page
+============================================================ */	
+.right-sidebar .widget .contact-title {
+	margin-top:0;
+}
+
+}
