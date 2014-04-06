@@ -1,34 +1,24 @@
-<?php
-function custom_echo($x)
-{
-  if(strlen($x)<=200)
-  {
-    echo $x;
-  }
-  else
-  {
-    $y=substr($x,0,200) . '...';
-    echo $y;
-  }
-}?>
+<?php 
+$dbImagens = new Admin_Model_DbTable_Imagens();
+$imagem = $dbImagens->pesquisarImagens($this->materias['thumb']);
+
+//$dbUsuario = new Admin_Model_DbTable_Usuario();
+//$usuario = $dbUsuario->pesquisarUsuario($this->noticia['autor']);
+
+?>
+
 <div class="grid_12">
-      <h3>Our BLog</h3>      </div>
+      <h3><?php echo $this->materias['titulo']?></h3>      </div>
       <div class="grid_7">
-          <?php
-            foreach($this->materias as $key => $materia):
-          ?>
                 <div class="blog">
-                <img src="images/page3_img1.jpg" alt="" class="img_inner fleft">
                     <div class="extra_wrapper">
-                      <h4><a href="#"><?php echo $materia['titulo']?> </a></h4>
-                      <time datetime="<?php echo $materia['dtInclusao']?>"><?php echo $materia['dtInclusao']?></time><?php echo $materia['descricao']?>
-                      <br>
-                      <a href="<?php echo $this->url(array("controller"=>"blog","action"=>"show","id"=>$materia['idMateria']),null,true)?>" class="link1">Veja Mais</a>
-                    </div>
+                        <time datetime="<?php echo nl2br($this->materias['dtInclusao'])?>"><?php echo $this->materias['dtInclusao']?></time><?php echo $this->materias['descricao']?>
+                        <br> 
+                        <p><img src="<?php echo $imagem['local'].$imagem['nome'];?>" alt="<?php echo $this->materias['titulo']?>" class="img_inner fleft"></p>
+                        <br>
+                        <p> <?php echo $this->materias['texto']?>
+                   </div>
                 </div>
-          <?php
-            endforeach;
-          ?>
     </div>
     <div class="grid_4 prefix_1">
 <!--      <h4>Categories</h4>
