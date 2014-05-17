@@ -33,8 +33,8 @@ class Admin_ArticleController extends Zend_Controller_Action
         $titulo = urldecode( $this->_getParam('titulo') );
         $titulo = str_replace(' ', '_',$titulo);
         
-        $bdImagem = new Application_Model_DbTable_Imagens();
-        $dbArtigos = new Application_Model_DbTable_Artigo();
+        $bdImagem = new Admin_Model_DbTable_Imagens();
+        $dbArtigos = new Admin_Model_DbTable_Artigo();
         
         $formMateria = new Admin_Form_Materia();
         
@@ -42,13 +42,13 @@ class Admin_ArticleController extends Zend_Controller_Action
             $data = $this->getRequest()->getPost();
             
             if ( $formMateria->isValid($data) ){                
-                $dbImagens = new Application_Model_DbTable_Imagens();
+                $dbImagens = new Admin_Model_DbTable_Imagens();
         
                 /*Faz upload do arquivo*/
                 $upload = new Zend_File_Transfer_Adapter_Http();
                 foreach ($upload->getFileInfo() as $file => $info) {                                     
                     $extension = pathinfo($info['name'], PATHINFO_EXTENSION); 
-                    $upload->addFilter('Rename', array( 'target' => APPLICATION_PATH.'/../public/images/materia-'.$titulo.'.'.$extension,'overwrite' => true,));
+                    $upload->addFilter('Rename', array( 'target' => APPLICATION_PATH.'/../public/images/materias/materia-'.$titulo.'.'.$extension,'overwrite' => true,));
                 }
             try {
                 $upload->receive();
@@ -61,7 +61,8 @@ class Admin_ArticleController extends Zend_Controller_Action
                 $dados =array(
                     'descricao'  =>   'Logotipo'.$this->_getParam('sponsor'),
                     'nome'      =>  'materia-'.$titulo.'.'.$extension,
-                    'local'     =>  '../public/images/',
+                    'local'     =>  '../public/images/materias/',
+                    'categoria' => '2'
                 );
         
                 $idImagem = $bdImagem->incluirImagem($dados);        
